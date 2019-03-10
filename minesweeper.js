@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Game {
   constructor(numberOfRows, numberOfColumns, numberOfBombs) {
     this._board = new Board(numberOfRows, numberOfColumns, numberOfBombs);
@@ -120,7 +119,7 @@ static generateBombBoard(numberOfRows, numberOfColumns, numberOfBombs) {
 
 const g = new Game(3, 3, 3);
 g.playMove(0, 0);
-=======
+
 const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
   const board = [];
 
@@ -213,4 +212,3 @@ printBoard(bombBoard);
 flipTile(playerBoard, bombBoard, 0, 0);
 console.log('Updated Player Board:');
 printBoard(playerBoard);
->>>>>>> b316f27555e7b29a083d1eda871cffb729f84488
